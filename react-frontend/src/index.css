@@ -1,0 +1,75 @@
+/* index.css */
+
+/* Resetting default margins and padding */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa; /* Background color for the entire app */
+}
+
+/* Improve readability and appearance of links */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth transition for link color */
+}
+
+a:hover {
+  color: #0056b3; /* Darker color on hover */
+  text-decoration: underline;
+}
+
+/* Improve focus styles for accessibility */
+:focus {
+  outline: none;
+}
+
+/* Add transitions for smoother UI interactions */
+* {
+  transition: all 0.3s ease;
+}
+
+/* Global container styles */
+.container {
+  max-width: 1200px; /* Set a maximum width for content */
+  margin: 0 auto; /* Center content horizontally */
+  padding: 20px; /* Add padding to content */
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0; /* Remove default margin for headings */
+  margin-bottom: 10px; /* Add margin bottom for spacing */
+}
+
+/* Paragraph styles */
+p {
+  margin-top: 0; /* Remove default margin for paragraphs */
+  margin-bottom: 20px; /* Add margin bottom for spacing */
+}
+
+/* Code font styles */
+code {
+  font-family: 'Fira Code', 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Improve input field appearance */
+input[type="text"],
+input[type="password"],
+textarea {
+  padding: 10px; /* Add padding to input fields */
+  border: 1px solid #ced4da; /* Add border */
+  border-radius: 4px; /* Add border radius */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  border-color: #80bdff; /* Change border color on focus */
+  outline: none; /* Remove default focus outline */
+}
